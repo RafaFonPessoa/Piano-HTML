@@ -1,7 +1,7 @@
 const pianoKeys = document.querySelectorAll(".piano-keys .key")
 
 const volumeSlider = document.querySelector(".column-volume-slider input")
-const keysCheck = document.querySelector("column-keys-check input")
+const keysCheck = document.querySelector(".column-keys-check input")
 
 let audio= new Audio("src/tunes/a.wav")
 let mapedKeys = []
